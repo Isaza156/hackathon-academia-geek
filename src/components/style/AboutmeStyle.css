@@ -1,0 +1,5 @@
+.img-transition:hover{
+    background-image: url('../images/quehacemos.jpg');
+    z-index: 1;
+    background-color: blue;
+}

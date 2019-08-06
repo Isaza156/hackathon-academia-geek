@@ -1,0 +1,10 @@
+ul li{
+    list-style: none;
+}
+
+.bg{
+    background-color: rgb(238, 238, 238);
+}
+.color{
+   background-color: rgb(179, 179, 179);
+}
