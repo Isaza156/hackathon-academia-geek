@@ -1,0 +1,21 @@
+.bg-home{
+    background-image: url('../img/homemakaia.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-boton{
+    background-color: #f46e33!important;
+}
+
+@media (max-width: 575.98px) { 
+    .logo-home{
+        width: 100%!important;
+    }
+    .title-home{
+        font-size: 35px!important;
+    }
+    .boton-letter{
+        font-size: 15px!important;
+    }
+}
