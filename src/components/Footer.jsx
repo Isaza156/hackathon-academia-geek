@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Logo from "./images/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './style/FooterStyle.css';
 
 class Footer extends Component {
   state = {};
@@ -81,73 +82,13 @@ class Footer extends Component {
         <div className="container-fluid text-center bg-primary text-white">
           <div className="container py-3">
             <p>© 2019 Makaia. All Rights Reserved.</p>
-          </div>
+          </div>          
         </div> 
-
-        {/* <div className="container-fluid bg-light">
-            <div className="container">
-            <img
-                  src={Logo}
-                  alt=""
-                  className="img-fluid w-50 mx-auto d-block mb-4"
-                />
-                <div className="align-items-center mt-3 text-center pb-4">
-                  <a
-                    className="text-white p-2"
-                    target="_blanck"
-                    href="https://twitter.com/thezule1445"
-                  >
-                    <FontAwesomeIcon
-                      icon={["fab", "facebook"]}
-                      size="4x"
-                      className="p-2"
-                      color="blue"
-                    />
-                  </a>
-                  <a
-                    className="text-white p-2"
-                    target="_blanck"
-                    href="https://github.com/juan1445"
-                  >
-                    <FontAwesomeIcon
-                      icon={["fab", "twitter"]}
-                      size="4x"
-                      className="p-2"
-                      color="aqua"
-                    />
-                  </a>
-                  <a
-                    className="text-white p-3"
-                    target="_blanck"
-                    href="https://www.linkedin.com/in/juan1445"
-                  >
-                    <FontAwesomeIcon
-                      icon={["fab", "youtube"]}
-                      size="4x"
-                      className="p-2"
-                      color="red"
-                    />
-                  </a>
-                  <a
-                    className="text-white p-3"
-                    target="_blanck"
-                    href="https://www.linkedin.com/in/juan1445"
-                  >
-                    <FontAwesomeIcon
-                      icon={["fab", "linkedin"]}
-                      size="4x"
-                      className="p-2"
-                      color="blue"
-                    />
-                  </a>
-                </div>
+        <div className="btn-whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=573122678810" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="" />
+                </a>
             </div>
-        </div>
-        <div className="container-fluid text-center bg-primary text-white">
-          <div className="container py-3">
-            <p>© 2019 Makaia. All Rights Reserved.</p>
-          </div>
-        </div> */}
       </React.Fragment>
     );
   }

@@ -12,7 +12,7 @@ class AboutMe extends Component {
           <h1 className="mb-5" >Bienvenido a Academia Geek !!</h1>
         <div className="row">
           <div className="col-md-4 col-lg-4">
-            <a className="img-transition" href="/"><img src={About1} alt="" className="img-fluid shadow rounded-circle mb-4" /></a>
+            <img src={About1} alt="" className="img-fluid shadow rounded-circle mb-4" />
             <h3>¿Quiénes somos?</h3>
             <p>Somos una alianza entre MAKAIA, Agile Innova y E-volution: tres organizaciones que trabajan con tecnología, innovación y soluciones digitales que han decidido compartir conocimiento a través de una Academia de Código y Programación.</p>
           </div>
