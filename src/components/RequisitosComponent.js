@@ -60,10 +60,10 @@ const Requisitos = () => {
             </div>
 
         </div>
-        <h3 className='text-danger ml-4 mt-5'> Requisitos para aplicar a una beca </h3>
+        <h3 className='text-danger mt-5'> Requisitos para aplicar a una beca </h3>
         <div className='row'>
             <div className='text-center my-5 col-md-6 col-lg-6'>                
-                <ul>
+                <ul className='pl-0'>
                     <div className="card border">
 
                         <div className="card-body">

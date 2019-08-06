@@ -86,7 +86,7 @@ class Header extends Component {
             <p className="lead font-weight-normal" />
             <a
               className="btn btn-primary btn-lg btn-block bg-boton font-weight-bold mb-2 boton-letter mt-4"
-              href="https://wa.me/0573232933565"
+              href="#requisitos"
             >
               Inscríbete en los cursos disponibles
             </a><br/>

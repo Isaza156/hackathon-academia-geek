@@ -22,7 +22,7 @@ class AboutMe extends Component {
           </div>
           <div className="col-md-4 col-lg-4">
           <FontAwesomeIcon icon="chalkboard-teacher" size="7x" className="p-2" color="orange"/>
-            <h3>¿Qué aprendéras?</h3>
+            <h3>¿Qué aprenderás?</h3>
             <p>Además de programar, fortalecerás otras competencias y trabajarás con metodologías ágiles de desarrollo de software y emprendimiento TIC. Además te apoyaremos en la búsqueda de empleo y relacionamiento con empresas.</p>
           </div>
         </div>
