@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Cursos from './components/CursosComponent';
 import Header from './components/Header';
 import Dudas from './components/Dudas';
+import Aliados from './components/AliadosComponent';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <hr />
       <Requisitos />
       <hr />
+      <Aliados />
+      <hr/>
       <Dudas/>
       <hr/>
       <Footer />

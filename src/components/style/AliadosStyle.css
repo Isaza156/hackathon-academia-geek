@@ -1,0 +1,22 @@
+.aliados img{
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.organizar{
+    margin-top:20px;
+}
+
+@media (max-width: 770px) {
+    .aliados img {
+      width: 150px;
+      display:block;
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .organizar{
+        margin-top:0px;
+    }
+  }

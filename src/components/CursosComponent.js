@@ -38,7 +38,7 @@ class Cursos extends React.Component {
             </div>
 
             <div className="col-md-7">
-              <h1 className="text-center letra mb-3">Línea 1: Desarrollo Web/Mobile Frontend</h1>
+              <h1 className="text-center letra mb-3" id='frontend'>Línea 1: Desarrollo Web/Mobile Frontend</h1>
               <p className="contenidos text-center mb-4">En este curso se formarán las competencias para realizar el maquetado de interfaces gráficas para aplicaciones web utilizando HTML-CSS, bootstrap, material design, haciendo énfasis en Javascript para lo que se utilizará la herramienta de ReactJS. Así mismo se realizará el desarrollo de interfaces gráficas para dispositivos móviles utilizando ReactNative. Lo anterior se complementará con herramientas de testing.</p>
               <div className="row">
                 <div className="col-3 ">
@@ -92,7 +92,7 @@ class Cursos extends React.Component {
             </div>
 
             <div className="col-md-7">
-              <h1 className="text-center letra mb-3">Línea 2: Desarrollo Web Backend con orientación Javascript</h1>
+              <h1 className="text-center letra mb-3" id='backend'>Línea 2: Desarrollo Web Backend con orientación Javascript</h1>
               <p className="contenidos text-center mb-5">En este curso se formarán las competencias para programar funciones, procedimientos o aplicaciones que procesen información del lado del servidor, utilizando tecnologías como: NodeJS, MongoDB, GRAPHQL y Firebase.</p>
               <div className="row">
                 <div className="col-3 ">
@@ -147,7 +147,7 @@ class Cursos extends React.Component {
             </div>
 
             <div className="col-md-7">
-              <h1 className="text-center letra mb-3">Línea 3: Mecánica de videojuego en Realidad virtual</h1>
+              <h1 className="text-center letra mb-3" id='videojuegos'>Línea 3: Mecánica de videojuego en Realidad virtual</h1>
               <p className="contenidos text-center mb-5">En este curso se formarán las competencias para el desarrollo de experiencias inmersivas para entornos de 3D, utilizando para esto la herramienta de Unity y programando para alguna de las tecnologías de visualización disponibles en el mercado como Samsung Gear VR, Oculus Go, Microsoft Mixed Reality, HTC Vive u Oculus Rift.</p>
               <div className="row">
                 <div className="col-3 ">

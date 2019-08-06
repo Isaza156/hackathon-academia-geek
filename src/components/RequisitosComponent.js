@@ -4,7 +4,7 @@ import './style/RequisitosStyle.css'
 const Requisitos = () => {
     return (
         <div className='container text-center my-5'>
-        <div className='text-center mt-4 mb-4 text-danger'>
+        <div className='text-center mt-4 mb-4 text-danger' id='requisitos'>
             <h3> Convocatoria para aplicar a una beca </h3>
         </div>
         <div className="accordion container" id="accordionExample">

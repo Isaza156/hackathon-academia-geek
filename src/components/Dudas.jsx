@@ -3,7 +3,7 @@ import './style/DudasStyles.css'
 
 const Dudas = () => {
   return (
-    <div className="accordion container" id="accordionExample">
+    <div className="accordion container my-5" id="accordionExample">
       <div className="card ">
         <div className="card-header text-center colores" id="headingOne">
           <h2 className="mb-0">

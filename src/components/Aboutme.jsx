@@ -8,7 +8,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="container text-center mt-5 mb-5">
-          <h1 className="mb-5" >Bienvenido a Academia Geek !!</h1>
+          <h1 className="mb-5" id='aboutme' >Bienvenido a Academia Geek !!</h1>
         <div className="row">
           <div className="col-md-4 col-lg-4">
             <FontAwesomeIcon icon="question" size="7x" className="p-2" color="orange"/>
