@@ -5,8 +5,8 @@ import { directive } from '@babel/types';
 class Cursos extends React.Component {
   render() {
     return (
-      <div className='my-4'>
-       
+      <div className='my-5'>
+
         <div className="container" id='cursos'>
           <div className="row mb-5">
             <div className="col-md-5 ">
@@ -38,9 +38,9 @@ class Cursos extends React.Component {
             </div>
 
             <div className="col-md-7">
-              <h1 className="text-center letra mb-3" id='frontend'>Línea 1: Desarrollo Web/Mobile Frontend</h1>
-              <p className="contenidos text-center mb-4">En este curso se formarán las competencias para realizar el maquetado de interfaces gráficas para aplicaciones web utilizando HTML-CSS, bootstrap, material design, haciendo énfasis en Javascript para lo que se utilizará la herramienta de ReactJS. Así mismo se realizará el desarrollo de interfaces gráficas para dispositivos móviles utilizando ReactNative. Lo anterior se complementará con herramientas de testing.</p>
-              <div className="row">
+              <h1 className="text-center letra mb-3 px-4" id='frontend'>Línea 1: Desarrollo Web Frontend</h1>
+              <p className="contenidos text-center mb-4 px-4">En este curso se formarán las competencias para realizar el maquetado de interfaces gráficas para aplicaciones web utilizando HTML-CSS, bootstrap, material design, haciendo énfasis en Javascript para lo que se utilizará la herramienta de ReactJS. Lo anterior se complementará con herramientas de testing.</p>
+              <div className="row px-4">
                 <div className="col-3 ">
                   <img src="https://5.imimg.com/data5/TI/NN/GLADMIN-54744791/html-and-html5-500x500.png" className="imagenservicio mx-auto" />
                 </div>
@@ -92,9 +92,9 @@ class Cursos extends React.Component {
             </div>
 
             <div className="col-md-7">
-              <h1 className="text-center letra mb-3" id='backend'>Línea 2: Desarrollo Web Backend con orientación Javascript</h1>
-              <p className="contenidos text-center mb-5">En este curso se formarán las competencias para programar funciones, procedimientos o aplicaciones que procesen información del lado del servidor, utilizando tecnologías como: NodeJS, MongoDB, GRAPHQL y Firebase.</p>
-              <div className="row">
+              <h1 className="text-center letra mb-3 px-4" id='backend'>Línea 2: Desarrollo Web Backend</h1>
+              <p className="contenidos text-center mb-5 px-4">En este curso se formarán las competencias para programar funciones, procedimientos o aplicaciones que procesen información del lado del servidor, utilizando tecnologías como: NodeJS, MongoDB, GRAPHQL y Firebase.</p>
+              <div className="row px-4">
                 <div className="col-3 ">
                   <img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png" className="imagenservicio mx-auto" />
                 </div>
@@ -147,9 +147,9 @@ class Cursos extends React.Component {
             </div>
 
             <div className="col-md-7">
-              <h1 className="text-center letra mb-3" id='videojuegos'>Línea 3: Mecánica de videojuego en Realidad virtual</h1>
-              <p className="contenidos text-center mb-5">En este curso se formarán las competencias para el desarrollo de experiencias inmersivas para entornos de 3D, utilizando para esto la herramienta de Unity y programando para alguna de las tecnologías de visualización disponibles en el mercado como Samsung Gear VR, Oculus Go, Microsoft Mixed Reality, HTC Vive u Oculus Rift.</p>
-              <div className="row">
+              <h1 className="text-center letra mb-3 px-4" id='videojuegos'>Línea 3: Mecánicas de Videojuegos Realidad Virtual</h1>
+              <p className="contenidos text-center mb-5 px-4">En este curso se formarán las competencias para el desarrollo de experiencias inmersivas para entornos de 3D, utilizando para esto la herramienta de Unity y programando para alguna de las tecnologías de visualización como Samsung Gear VR, Oculus Go, Microsoft Mixed Reality, HTC Vive u Oculus Rift.</p>
+              <div className="row px-4">
                 <div className="col-3 ">
                   <img src="https://www.stickpng.com/assets/images/58482b92cef1014c0b5e4a2d.png" className="imagenservicio mx-auto" />
                 </div>

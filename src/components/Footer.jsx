@@ -85,7 +85,7 @@ class Footer extends Component {
           </div>          
         </div> 
         <div className="btn-whatsapp">
-                <a href="https://api.whatsapp.com/send?phone=573122678810" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=573207610176" target="_blank">
                     <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="" />
                 </a>
             </div>
