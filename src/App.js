@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Cursos from './components/CursosComponent';
 function App() {
   return (
-    <h1>Hello world</h1>
+    <Cursos/>
   );
 }
 export default App;
