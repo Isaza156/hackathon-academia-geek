@@ -1,8 +1,8 @@
 import React from 'react';
-import Cursos from './components/CursosComponent';
+import Aliados from './components/AliadosComponent';
 function App() {
   return (
-    <Cursos/>
+    <Aliados/>
   );
 }
 export default App;
