@@ -1,8 +1,11 @@
 import React from 'react';
+import Footer from './components/FooterComponent/Footer';
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <React.Fragment>
+      <Footer />
+    </React.Fragment>
   );
 }
 export default App;
