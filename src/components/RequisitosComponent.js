@@ -62,8 +62,7 @@ const Requisitos = () => {
         </div>
         <h3 className='text-danger ml-4 mt-5'> Requisitos para aplicar a una beca </h3>
         <div className='row'>
-            <div className='text-center my-5 col-6'>
-                
+            <div className='text-center my-5 col-md-6 col-lg-6'>                
                 <ul>
                     <div className="card border">
 
@@ -76,7 +75,7 @@ const Requisitos = () => {
                     </div>
                 </ul>
             </div>
-            <div className='col-6 mt-5'>
+            <div className='col-md-6 col-lg-6 mt-5'>
                 <div className='text-center'>
                     <h2 className='text-dark'> ¿Cumples con los requisitos?</h2>
                     <button type="button" class="btn btn btn-danger my-3">Aplica para una beca</button>
