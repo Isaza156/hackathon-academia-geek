@@ -2,6 +2,7 @@ import React from 'react';
 import AboutMe from './components/Aboutme';
 import Requisitos from './components/RequisitosComponent';
 import Footer from './components/Footer';
+import Cursos from './components/CursosComponent';
 
 
 
@@ -10,9 +11,11 @@ function App() {
     <React.Fragment>
     <AboutMe />
     <hr/>
+    <Cursos/>
+    <hr/>
     <Requisitos />
     <hr/>
-    <Footer />
+    <Footer />    
   </React.Fragment>
   );
 }

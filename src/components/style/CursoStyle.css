@@ -1,0 +1,25 @@
+.carrusel_cursos{
+    height: 25rem;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+
+.imagenservicio{
+    width:80%;
+}
+
+.letra{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FF4000;
+}
+
+.contenidos{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+.letra:hover{
+    color:#8A0808;
+    transition:all .3s ease-out 0s
+}
